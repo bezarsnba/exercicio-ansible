@@ -11,8 +11,10 @@ This playbook install following packages:
 - MariaDB
 
 ## Necessary
-- Python >2.7
-- Ansible 2.6~2.7
+- Python
+- Ansible
+- Vagrant
+
 
 ## Test in Operation system:
 - Ubuntu Bionic (18.04)
@@ -21,4 +23,10 @@ To running this playbook is necessary:
 
 ```bash
 $ ansible-playbook -i hosts/hosts playbook.yaml
+```
+
+Another options is using Vagrant
+
+```bash
+$ vagrant up
 ```
